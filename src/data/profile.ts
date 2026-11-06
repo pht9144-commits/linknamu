@@ -13,9 +13,9 @@ export type Profile = {
 
 // 보여주기용 더미 값입니다. 실제 내용은 나중에 교체하세요.
 export const profile: Profile = {
-  name: "홍길동",
-  bio: "클로드 코드 마스터",
-  photo: "/avatar.svg",
+  name: "김현우",
+  bio: "클로드 코드 마스터가 되고 싶은 클코병아리",
+  photo: "/profile.png",
   links: [
     { id: "github", title: "GitHub", url: "https://github.com" },
     { id: "linkedin", title: "LinkedIn", url: "https://linkedin.com" },
