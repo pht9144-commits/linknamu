@@ -17,7 +17,7 @@ export const profile: Profile = {
   bio: "클로드 코드 마스터가 되고 싶은 클코병아리",
   photo: "/profile.png",
   links: [
-    { id: "github", title: "🐙 깃허브", url: "https://github.com/pht9144" },
+    { id: "github", title: "🐙 깃허브", url: "https://github.com/pht9144-commits" },
     {
       id: "notion",
       title: "📝 노션",
