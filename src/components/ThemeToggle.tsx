@@ -23,7 +23,7 @@ export default function ThemeToggle() {
       type="button"
       onClick={toggle}
       aria-label={dark ? "라이트 모드로 전환" : "다크 모드로 전환"}
-      className="absolute right-4 top-4 rounded-full border border-neutral-300 bg-white px-3 py-2 text-sm dark:border-neutral-700 dark:bg-neutral-900"
+      className="absolute right-5 top-5 rounded-full border border-white/60 bg-white/40 px-3.5 py-2 text-sm backdrop-blur-md transition hover:bg-white/60 dark:border-white/10 dark:bg-white/5 dark:hover:bg-white/10"
     >
       {dark ? "☀️ 밝게" : "🌙 어둡게"}
     </button>

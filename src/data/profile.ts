@@ -17,8 +17,12 @@ export const profile: Profile = {
   bio: "클로드 코드 마스터가 되고 싶은 클코병아리",
   photo: "/profile.png",
   links: [
-    { id: "github", title: "GitHub", url: "https://github.com" },
-    { id: "linkedin", title: "LinkedIn", url: "https://linkedin.com" },
-    { id: "blog", title: "블로그", url: "https://velog.io" },
+    { id: "github", title: "🐙 깃허브", url: "https://github.com/pht9144" },
+    {
+      id: "notion",
+      title: "📝 노션",
+      url: "https://app.notion.com/p/35a574f3c1848092ba4ce99c266d0cca?v=35a574f3c184809a9beb000cee244572&source=copy_link",
+    },
+    { id: "email", title: "📮 이메일", url: "mailto:pht9144@gmail.com" },
   ],
 };

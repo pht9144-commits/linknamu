@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Pretendard Variable", Pretendard, -apple-system,
+      BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Noto Sans KR",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: -0.01em;
+  }
+
+  body {
+    min-height: 100vh;
+    color: #3b2f2a;
+    background: linear-gradient(160deg, #fffaf0 0%, #fdeedd 55%, #fbd9c0 100%)
+      fixed;
+  }
+
+  .dark body {
+    color: #f5ebe3;
+    background: linear-gradient(160deg, #1f1815 0%, #2a1f1a 55%, #3a2a21 100%)
+      fixed;
+  }
+}

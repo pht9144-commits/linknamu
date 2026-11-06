@@ -7,7 +7,7 @@ Linktree처럼 내 모든 링크를 한 페이지에 모아두고
 
 ## 기술 스택
 
-- Next.js 14 (App Router)
+- Next.js 16 (App Router)
 - Tailwind CSS
 - MongoDB Atlas (클릭 수 저장)
 - Vercel (배포)

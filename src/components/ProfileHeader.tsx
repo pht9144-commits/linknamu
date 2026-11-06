@@ -11,10 +11,12 @@ export default function ProfileHeader({ name, bio, photo }: Props) {
       <img
         src={photo}
         alt={`${name} 프로필 사진`}
-        className="h-28 w-28 rounded-full border border-neutral-300 object-cover dark:border-neutral-700"
+        className="h-28 w-28 rounded-full border-4 border-white/80 object-cover shadow-[0_12px_30px_-8px_rgba(120,70,30,0.35)] ring-1 ring-black/5 dark:border-white/10 dark:shadow-[0_12px_30px_-8px_rgba(0,0,0,0.6)] dark:ring-white/10"
       />
-      <h1 className="mt-5 text-2xl font-bold">{name}</h1>
-      <p className="mt-1 text-neutral-600 dark:text-neutral-400">{bio}</p>
+      <h1 className="mt-6 text-2xl font-bold tracking-tight">{name}</h1>
+      <p className="mt-2 max-w-xs text-[15px] leading-relaxed text-[#8a6f60] dark:text-[#c9b3a5]">
+        {bio}
+      </p>
     </header>
   );
 }
